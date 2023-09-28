@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+  font-size: 0.8rem;
+  font-family:  'vazir' , sans-serif;
+   
+}
+.lalezar{
+    font-family: lalezar;
+}
+.vazir{
+    font-family: vazir;
+}
