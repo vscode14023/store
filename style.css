@@ -7,6 +7,7 @@ html{
 body{
   font-size: 0.8rem;
   font-family:  'vazir' , sans-serif;
+  background-color: #bfc0c13f;
    
 }
 *{
@@ -41,6 +42,10 @@ body{
         display: none;
         z-index:1;
       
+    }
+    .text-slider{
+        margin-right: 235px;
+        border-right: 2px solid gray;
     }
   
 }
@@ -80,6 +85,15 @@ transition: all 0.1s;
 
 }
 
+/* header-img */
+
     
 
 /* button navbar */
+
+/* slider */
+
+
+.carousel{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
