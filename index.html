@@ -8,13 +8,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
   <!-- style.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- cdn aos  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <!-- nav bar -->
     
     <nav class="navbar navbar-expand-md bg-body-tertiary py-0">
-      <div class="container-fluid " style="background: #5d5c615e;">
+      <div class="container-fluid " style="background: #14202c; ">
         <h3 class="name-shop lalezar order-1">شاپ لاین</h3>
         <a class="navbar-brand order-0" href="#">
           <img src="images/logo/9866103_223.jpg" class="img-fluid img-logo border border-3 ms-2">
@@ -59,16 +61,13 @@
     </nav>
    
   <!-- waves -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bfc0c1" fill-opacity="1" d="M0,288L48,250.7C96,213,192,139,288,133.3C384,128,480,192,576,186.7C672,181,768,107,864,85.3C960,64,1056,96,1152,138.7C1248,181,1344,235,1392,261.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-
- <!-- header slider -->
- <div class="container">
- <div class="text-slider text-start">
- <h1 class=" lalezar mb-2  ">بهترین ها رو از ما بخواهید!</h1>
-</div>
-</div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#14202c" fill-opacity="1" d="M0,128L120,106.7C240,85,480,43,720,53.3C960,64,1200,128,1320,160L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+  <div class="container">
+    <h3 class="lalezar text-light">لورم</h3>
+  </div>
   <!-- slider -->
- <div id="carouselExampleCaptions" class="carousel slide w-75 m-auto my-5 carousel-dark" data-bs-ride="true">
+ <div class="container"  data-aos="fade-up">
+ <div id="carouselExampleCaptions" class="carousel slide w-100 m-auto my-2 carousel-dark " data-bs-ride="true">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -106,15 +105,16 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+</div>
 <!--cards -->
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
-    <div class="col gy-2">
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 ">
+    <div class="col gy-2"  data-aos="fade-up">
       <div class="card">
         <h6 class="text-danger m-2">فروش ویژه</h6>
         <img src="images/card/2.webp" class="card-img-top img-fluid" >
         <div class="card-body">
-          <h5 class="card-title">کفش مردانه</h5>
+          <h5 class="card-title text-light">کفش مردانه</h5>
           <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
         </div>
         <div class="card-body d-flex justify-content-around align-items-center">
@@ -123,12 +123,12 @@
         </div>
       </div>
     </div>
-    <div class="col gy-2">
+    <div class="col gy-2"  data-aos="fade-up">
       <div class="card">
-        <h6 class="text-danger m-2">فروش ویژه</h6>
+        <h6 class="text-danger m-2" >فروش ویژه</h6>
         <img src="images/card/7.webp" class="card-img-top img-fluid" >
         <div class="card-body">
-          <h5 class="card-title">کفش مردانه</h5>
+          <h5 class="card-title text-light">کفش مردانه</h5>
           <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
         </div>
         <div class="card-body d-flex justify-content-around align-items-center">
@@ -137,12 +137,12 @@
         </div>
       </div>
     </div>
-    <div class="col gy-2">
+    <div class="col gy-2"  data-aos="fade-up">
       <div class="card">
         <h6 class="text-danger m-2">فروش ویژه</h6>
         <img src="images/card/3.webp" class="card-img-top img-fluid" >
         <div class="card-body">
-          <h5 class="card-title">کفش مردانه</h5>
+          <h5 class="card-title text-light">کفش مردانه</h5>
           <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
         </div>
         <div class="card-body d-flex justify-content-around align-items-center">
@@ -151,13 +151,13 @@
         </div>
       </div>
     </div>
-    <div class="col gy-2">
+    <div class="col gy-2"  data-aos="fade-up">
       <div class="card">
         <h6 class="text-danger m-2">فروش ویژه</h6>
         <img src="images/card/4.webp" class="card-img-top img-fluid" >
         <div class="card-body">
-          <h5 class="card-title">کفش مردانه</h5>
-          <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+          <h5 class="card-title text-light">کفش مردانه</h5>
+          <p class="card-text ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
         </div>
         <div class="card-body d-flex justify-content-around align-items-center">
           <button type="button" class="btn btn-outline-primary">خرید کنید</button>
@@ -170,5 +170,10 @@
 </div>
 <!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!-- aos sdn -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
