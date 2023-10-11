@@ -127,7 +127,7 @@ transition: all 0.1s;
 }
 /* section1 */
 .section-1{
-    backdrop-filter: blur(100%) saturate(63%);
+backdrop-filter: blur(100%) saturate(63%);
 -webkit-backdrop-filter: blur(25px) saturate(63%);
 background-color: rgba(17, 25, 40, 0.43);
 border-radius: 12px;
@@ -140,4 +140,23 @@ transition: all 0.1s;
 }
 .img-section1:hover{
     transform: scale(1.2)
+}
+
+/* accordian item */
+
+.button-menu-accordian{
+    background-color: #1f2e47;
+}
+.button-menu-accordian{
+    background-color: #313845;
+}
+.accordion-button:not(.collapsed){
+    background-color: #31374e;
+}
+.section-accordian{
+    backdrop-filter: blur(100%) saturate(63%);
+    -webkit-backdrop-filter: blur(25px) saturate(63%);
+    background-color: rgba(17, 25, 40, 0.43);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
