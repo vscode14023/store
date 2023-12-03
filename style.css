@@ -9,7 +9,7 @@ body{
   font-family:  'vazir' , sans-serif;
   background-color: #1d2223;
     background-image: 
-        radial-gradient(at 47% 33%, hsl(162.00, 16%, 51%) 0, transparent 59%), 
+        radial-gradient(at 47% 33%, hsla(158, 10%, 36%, 0.587) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(222.75, 70%, 78%) 0, transparent 55%)
    
 }
